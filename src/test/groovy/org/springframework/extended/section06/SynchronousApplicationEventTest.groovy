@@ -28,7 +28,7 @@ class SynchronousApplicationEventTest extends Specification {
     }
 
     @Configuration
-    @ComponentScan("section06")
+    @ComponentScan("org.springframework.extended.section06")
     public static class TestConfiguration {
 
     }
