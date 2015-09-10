@@ -18,26 +18,36 @@ class BeanDefinitionTest extends Specification {
     def "create a bean definition programmatically"() {
         expect:
             StaticApplicationContext context = new StaticApplicationContext();
-
             BeanDefinitionRegistry registry = (BeanDefinitionRegistry) context.beanFactory;
 
             // create the repository bean
-            BeanDefinition repositoryBeanDefinition = BeanDefinitionBuilder.genericBeanDefinition(RepositoryImpl).getBeanDefinition();
-            registry.registerBeanDefinition("repositoryImpl", repositoryBeanDefinition);
+            BeanDefinitionBuilder repositoryBeanDefinitionBuilder = BeanDefinitionBuilder.genericBeanDefinition(RepositoryImpl)
+            registry.registerBeanDefinition("repositoryImpl", repositoryBeanDefinitionBuilder.getBeanDefinition());
 
             // create the service bean
-            GenericBeanDefinition beanDef = new GenericBeanDefinition();
-            beanDef.setBeanClass(ServiceImpl.class);
+            BeanDefinitionBuilder serviceBeanDefinitionBuilder = BeanDefinitionBuilder.genericBeanDefinition(ServiceImpl)
+            serviceBeanDefinitionBuilder.addPropertyReference("repository", "repositoryImpl")
 
-            MutablePropertyValues values = new MutablePropertyValues();
-            values.addPropertyValue("repository", new RuntimeBeanReference("repositoryImpl"));
-
-            beanDef.setPropertyValues(values);
-
-            registry.registerBeanDefinition("serviceImpl", beanDef);
+            registry.registerBeanDefinition("serviceImpl", serviceBeanDefinitionBuilder.getBeanDefinition());
 
             context.getBean(IService.class) != null
             context.getBean(IRepository.class) != null
+            context.getBean(IService.class).repository != null
     }
+
+    /**
+     * GenericBeanDefinition beanDef = new GenericBeanDefinition();
+     * beanDef.setBeanClass(ServiceImpl.class);
+     *
+     * MutablePropertyValues values = new MutablePropertyValues();
+     * values.addPropertyValue("repository", new RuntimeBeanReference("repositoryImpl"));
+     *
+     * beanDef.setPropertyValues(values);
+     *
+     * registry.registerBeanDefinition("serviceImpl", beanDef);
+     *
+     * context.getBean(IService.class) != null
+     * context.getBean(IRepository.class) != null
+     */
 
 }
