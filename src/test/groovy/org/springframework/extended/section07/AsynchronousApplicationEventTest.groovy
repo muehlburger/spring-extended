@@ -9,7 +9,6 @@ import org.springframework.context.event.ApplicationEventMulticaster
 import org.springframework.context.event.SimpleApplicationEventMulticaster
 import org.springframework.core.task.SimpleAsyncTaskExecutor
 import org.springframework.test.context.ContextConfiguration
-import org.springframework.extended.section06.CustomApplicationEvent
 import spock.lang.Specification
 
 @ContextConfiguration(classes = TestConfiguration)
@@ -37,15 +36,6 @@ class AsynchronousApplicationEventTest extends Specification {
     @Configuration
     @ComponentScan("org.springframework.extended.section07")
     public static class TestConfiguration {
-
-        @Bean
-        public ApplicationEventMulticaster applicationEventMulticaster() {
-            SimpleApplicationEventMulticaster aem = new SimpleApplicationEventMulticaster();
-            aem.setTaskExecutor(new SimpleAsyncTaskExecutor());
-
-            return aem;
-        }
-
 
     }
 
