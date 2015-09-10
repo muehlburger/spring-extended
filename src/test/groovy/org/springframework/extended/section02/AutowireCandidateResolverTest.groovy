@@ -34,11 +34,6 @@ class AutowireCandidateResolverTest extends Specification {
 
         @Bean
         public static MockAwareAutowireCandidateResolver mockAwareAutowireCandidateResolver() {
-            DefaultListableBeanFactory beanFactory = null
-            ClassPathBeanDefinitionScanner scanner = new ClassPathBeanDefinitionScanner(beanFactory);
-            scanner.addIncludeFilter(new AnnotationTypeFilter(Service.class, true, true));
-            scanner.scan("full.qualifier.packagename");
-
             return new MockAwareAutowireCandidateResolver();
         }
 
