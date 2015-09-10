@@ -7,13 +7,17 @@ repositories {
 }
 
 dependencies {
-    compile 'org.springframework:spring-core:4.2.0.RELEASE'
-    compile 'org.springframework:spring-beans:4.2.0.RELEASE'
-    compile 'org.springframework:spring-context:4.2.0.RELEASE'
+    compile 'org.springframework:spring-core:4.2.1.RELEASE'
+    compile 'org.springframework:spring-beans:4.2.1.RELEASE'
+    compile 'org.springframework:spring-context:4.2.1.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.2.1.RELEASE'
+    compile 'org.hsqldb:hsqldb:2.3.3'
+    compile 'com.h2database:h2:1.4.188'
+
 
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
     testCompile 'org.spockframework:spock-spring:1.0-groovy-2.4'
-    testCompile 'org.springframework:spring-test:4.2.0.RELEASE'
+    testCompile 'org.springframework:spring-test:4.2.1.RELEASE'
 
     testCompile 'org.easymock:easymock:3.3.1'
 }
