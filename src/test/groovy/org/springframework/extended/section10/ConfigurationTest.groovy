@@ -89,7 +89,6 @@ class ConfigurationTest extends Specification {
                     .setType(EmbeddedDatabaseType.HSQL)
                     .build();
         }
-
     }
 
     @Configuration
@@ -102,7 +101,6 @@ class ConfigurationTest extends Specification {
                     .setType(EmbeddedDatabaseType.H2)
                     .build();
         }
-
     }
 
 
