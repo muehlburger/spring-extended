@@ -10,7 +10,7 @@ import spock.lang.Specification
 import static org.springframework.test.context.TestExecutionListeners.*
 
 @ContextConfiguration(classes = TestConfiguration)
-@TestExecutionListeners(value = CustomDependencyInjectionTestExecutionListener, mergeMode = MergeMode.REPLACE_DEFAULTS)
+@TestExecutionListeners(mergeMode = MergeMode.REPLACE_DEFAULTS)
 class TestExecutionListenerTest extends Specification {
 
     @Autowired

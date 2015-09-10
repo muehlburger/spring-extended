@@ -12,24 +12,15 @@ class MapAccessorTest extends Specification {
 
     def "map accessor test"() {
         given:
-            SpelCompilerMode mode = SpelCompilerMode.IMMEDIATE;
-            SpelParserConfiguration config = new SpelParserConfiguration(mode, null);
-
-
-            SpelExpressionParser parser = new SpelExpressionParser(config);
-//            Expression expr = parser.parseExpression("#key == 'value'");
+            SpelExpressionParser parser = new SpelExpressionParser();
             Expression expr = parser.parseExpression("map.key == 'value'");
 
             def map = [map:[key:"value"]]
 
             EvaluationContext context = new StandardEvaluationContext(map);
-//            context.setVariable("key", "value")
-
-//            context.addPropertyAccessor(new MapAccessor())
-            context.addPropertyAccessor(new CompilableMapAccessor())
 
         when:
-            Boolean result
+            Boolean result = false
             0..10.each {
                 result = expr.getValue(context, Boolean.class);
             }
