@@ -24,7 +24,7 @@ import spock.lang.Specification
 import javax.sql.DataSource
 
 @ContextConfiguration(classes = TestConfiguration)
-@ActiveProfiles("HSQL")
+// TODO activate Profile
 class ConfigurationTest extends Specification {
 
     @Autowired
@@ -49,22 +49,19 @@ class ConfigurationTest extends Specification {
     }
 
     @Configuration
-    @Import(DBConfiguration)
-    @ComponentScan(basePackages = "org.springframework.extended.section10.impl",
-                   includeFilters = @ComponentScan.Filter(value = Service.class, type = FilterType.ANNOTATION),
-                   excludeFilters = @ComponentScan.Filter(value = Repository.class, type = FilterType.ANNOTATION))
+    // TODO add scan
+    // implement @Beans
+    // include DBConfiguration
     public static class TestConfiguration {
 
         @Bean
         BarService barService() {
-            BarService barService = new BarService()
-            barService.setFooService(fooService())
-            return barService
+            return null
         }
 
         @Bean
         FooService fooService() {
-            return new FooService()
+            return null
         }
 
 
@@ -72,21 +69,18 @@ class ConfigurationTest extends Specification {
 
 
     @Configuration
-    @Import([HSQLConfiguration,H2Configuration])
+    // TODO include datasource configurations
     public static class DBConfiguration {
-
-        @Autowired
-        DataSource dataSource
 
         @Bean
         PlatformTransactionManager transactionManager() {
-            return new DataSourceTransactionManager(dataSource)
+            return new DataSourceTransactionManager(null)
         }
 
     }
 
     @Configuration
-    @Profile("HSQL")
+    // TODO add Profile
     public static class HSQLConfiguration {
 
         @Bean
@@ -99,7 +93,7 @@ class ConfigurationTest extends Specification {
     }
 
     @Configuration
-    @Profile("H2")
+    // TODO add Profile
     public static class H2Configuration {
 
         @Bean
