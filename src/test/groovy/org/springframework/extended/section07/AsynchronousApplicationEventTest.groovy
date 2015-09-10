@@ -35,7 +35,7 @@ class AsynchronousApplicationEventTest extends Specification {
     }
 
     @Configuration
-    @ComponentScan("section07")
+    @ComponentScan("org.springframework.extended.section07")
     public static class TestConfiguration {
 
         @Bean
