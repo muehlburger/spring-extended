@@ -18,6 +18,7 @@ class MapAccessorTest extends Specification {
             def map = [map:[key:"value"]]
 
             EvaluationContext context = new StandardEvaluationContext(map);
+            context.addPropertyAccessor(new MapAccessor())
 
         when:
             Boolean result = false

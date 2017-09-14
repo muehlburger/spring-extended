@@ -10,17 +10,19 @@ class MapAccessor implements PropertyAccessor {
 
     @Override
     Class<?>[] getSpecificTargetClasses() {
-        return null
+        return Map.class
     }
 
     @Override
     boolean canRead(EvaluationContext context, Object target, String name) throws AccessException {
-        return false
+        Map map = (Map) target
+        return map.containsKey(name)
     }
 
     @Override
     TypedValue read(EvaluationContext context, Object target, String name) throws AccessException {
-        return new TypedValue(null)
+        Map map = (Map) target
+        return new TypedValue(map.get(name))
     }
 
     @Override
