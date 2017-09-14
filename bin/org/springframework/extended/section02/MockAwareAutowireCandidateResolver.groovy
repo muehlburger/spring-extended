@@ -1,8 +1,6 @@
 package org.springframework.extended.section02
 
-import org.easymock.EasyMock
 import org.springframework.beans.BeansException
-import org.springframework.beans.factory.NoSuchBeanDefinitionException
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory
 import org.springframework.beans.factory.config.DependencyDescriptor
@@ -19,13 +17,9 @@ class MockAwareAutowireCandidateResolver extends SimpleAutowireCandidateResolver
     Object getSuggestedValue(DependencyDescriptor descriptor) {
         Class<?> dependencyType = descriptor.dependencyType;
 
-        Map<String, ?> beans = applicationContext.getBeansOfType(dependencyType)
-        if (beans == null || beans.isEmpty()) {
-            return EasyMock.createMock(dependencyType)
-        }
-        return applicationContext.getBean(dependencyType)
-
         // return a mock if the bean type is not present within the context (EasyMock.createMock())
+
+        return null
     }
 
     @Override
