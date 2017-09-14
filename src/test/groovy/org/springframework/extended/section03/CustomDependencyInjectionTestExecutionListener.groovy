@@ -5,7 +5,7 @@ import org.springframework.test.context.TestContext
 import org.springframework.test.context.TestExecutionListener
 import org.springframework.test.context.support.AbstractTestExecutionListener
 
-class CustomDependencyInjectionTestExecutionListener {
+class CustomDependencyInjectionTestExecutionListener implements TestExecutionListener {
 
     private static void injectDependencies(final TestContext testContext) throws Exception {
         Object bean = testContext.getTestInstance();
@@ -16,4 +16,28 @@ class CustomDependencyInjectionTestExecutionListener {
         beanFactory.initializeBean(bean, testContext.getTestClass().getName());
     }
 
+    @Override
+    void beforeTestClass(TestContext testContext) throws Exception {
+
+    }
+
+    @Override
+    void prepareTestInstance(TestContext testContext) throws Exception {
+        injectDependencies(testContext)
+    }
+
+    @Override
+    void beforeTestMethod(TestContext testContext) throws Exception {
+
+    }
+
+    @Override
+    void afterTestMethod(TestContext testContext) throws Exception {
+
+    }
+
+    @Override
+    void afterTestClass(TestContext testContext) throws Exception {
+
+    }
 }

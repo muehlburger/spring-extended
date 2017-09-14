@@ -2,89 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff15fe39-0598-48de-bdc4-eaf8da4b7c00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/file-changes/last-build.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section01/beans/IRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section01/beans/IService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section02/beans/IRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section02/beans/IService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section02/beans/impl/ServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section10/interfaces/MarkerInterface.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cglib_cglib_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_h2database_h2_1_4_188.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_easymock_easymock_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hsqldb_hsqldb_2_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_spockframework_spock_core_1_0_groovy_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_spockframework_spock_spring_1_0_groovy_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/spring-extended.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/spring-extended_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/spring-extended_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section01/BeanDefinitionTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section01/beans/impl/RepositoryImpl.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section01/beans/impl/ServiceImpl.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section02/AutowireCandidateResolverTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section02/MockAwareAutowireCandidateResolver.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section03/CustomDependencyInjectionTestExecutionListener.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section03/TestExecutionListenerTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section04/MapAccessor.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section04/MapAccessorTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section05/CustomBeanResolver.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section05/SpELExpressionTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section06/CustomApplicationEvent.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section06/SynchronousApplicationEventTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section06/SynchronousApplicationListener.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section07/AsynchronousApplicationEventTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section07/AsynchronousApplicationListener.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section07/CustomApplicationEvent.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section08/CustomApplicationContextInitializer.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section08/CustomPropertySource.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section08/EnvironmentTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section09/MessageSourceTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section09/messages/messages.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section09/messages/messages_de.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section10/ConfigurationTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section10/impl/BarService.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section10/impl/FooService.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section10/impl/SomeRepository.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/org/springframework/extended/section10/impl/SomeService.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section01/BeanDefinitionTest.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section01/BeanDefinitionTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section02/MockAwareAutowireCandidateResolver.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section02/MockAwareAutowireCandidateResolver.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/CustomDependencyInjectionTestExecutionListener.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/CustomDependencyInjectionTestExecutionListener.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/TestExecutionListenerTest.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/TestExecutionListenerTest.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -122,13 +42,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockAwareAutowireCandidateResolver.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MockAwareAutowireCandidateResolver.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section02/MockAwareAutowireCandidateResolver.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#48#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestExecutionListenerTest.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/TestExecutionListenerTest.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding>
+                <element signature="e#48#109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomDependencyInjectionTestExecutionListener.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/CustomDependencyInjectionTestExecutionListener.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="e#48#122#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -482,6 +426,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section01/BeanDefinitionTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section02/MockAwareAutowireCandidateResolver.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/CustomDependencyInjectionTestExecutionListener.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/TestExecutionListenerTest.groovy" />
       </list>
     </option>
   </component>
@@ -555,28 +501,7 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="extended" type="462c0819:PsiDirectoryNode" />
-              <item name="section02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-extended" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-extended" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="extended" type="462c0819:PsiDirectoryNode" />
-              <item name="section02" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-extended" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-extended" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="extended" type="462c0819:PsiDirectoryNode" />
-              <item name="section02" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="section03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -605,7 +530,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AutowireCandidateResolverTest">
+  <component name="RunManager" selected="JUnit.TestExecutionListenerTest">
     <configuration name="All in spring-extended_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="spring-extended_test" />
@@ -663,6 +588,31 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.springframework.extended.section01" />
       <option name="MAIN_CLASS_NAME" value="org.springframework.extended.section01.BeanDefinitionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestExecutionListenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.springframework.extended.section03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-extended_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.springframework.extended.section03" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.extended.section03.TestExecutionListenerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -757,16 +707,18 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in spring-extended_test" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BeanDefinitionTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.AutowireCandidateResolverTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestExecutionListenerTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AutowireCandidateResolverTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BeanDefinitionTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in spring-extended_test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestExecutionListenerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AutowireCandidateResolverTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BeanDefinitionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in spring-extended_test" />
       </list>
     </recent_temporary>
   </component>
@@ -780,26 +732,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505387515932</updated>
-      <workItem from="1505387517052" duration="2810000" />
+      <workItem from="1505387517052" duration="3778000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutowireCandidateResolverTest - 2017.09.14 at 13h 44m 02s.xml">
-      <configuration name="AutowireCandidateResolverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutowireCandidateResolverTest - 2017.09.14 at 13h 50m 30s.xml">
-      <configuration name="AutowireCandidateResolverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutowireCandidateResolverTest - 2017.09.14 at 13h 50m 57s.xml">
-      <configuration name="AutowireCandidateResolverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutowireCandidateResolverTest - 2017.09.14 at 13h 52m 22s.xml">
-      <configuration name="AutowireCandidateResolverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutowireCandidateResolverTest - 2017.09.14 at 13h 52m 52s.xml">
-      <configuration name="AutowireCandidateResolverTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AutowireCandidateResolverTest - 2017.09.14 at 13h 53m 26s.xml">
       <configuration name="AutowireCandidateResolverTest" configurationId="JUnit" />
     </history-entry>
@@ -815,9 +752,24 @@
     <history-entry file="AutowireCandidateResolverTest - 2017.09.14 at 13h 57m 14s.xml">
       <configuration name="AutowireCandidateResolverTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestExecutionListenerTest - 2017.09.14 at 14h 00m 45s.xml">
+      <configuration name="TestExecutionListenerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExecutionListenerTest - 2017.09.14 at 14h 08m 41s.xml">
+      <configuration name="TestExecutionListenerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExecutionListenerTest - 2017.09.14 at 14h 08m 45s.xml">
+      <configuration name="TestExecutionListenerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExecutionListenerTest - 2017.09.14 at 14h 12m 45s.xml">
+      <configuration name="TestExecutionListenerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExecutionListenerTest - 2017.09.14 at 14h 14m 48s.xml">
+      <configuration name="TestExecutionListenerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2810000" />
+    <option name="totallyTimeSpent" value="3778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
@@ -837,7 +789,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27548808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19522777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -980,6 +932,42 @@
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#48#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.2.1.RELEASE/b5c1586ede8786962d35fa1d1ff7c2149926ff4b/spring-test-4.2.1.RELEASE-sources.jar!/org/springframework/test/context/support/AbstractTestExecutionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.2.1.RELEASE/b5c1586ede8786962d35fa1d1ff7c2149926ff4b/spring-test-4.2.1.RELEASE-sources.jar!/org/springframework/test/context/TestExecutionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/CustomDependencyInjectionTestExecutionListener.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#48#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/org/springframework/extended/section03/TestExecutionListenerTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#48#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
