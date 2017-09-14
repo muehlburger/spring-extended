@@ -37,6 +37,13 @@ class AsynchronousApplicationEventTest extends Specification {
     @ComponentScan("org.springframework.extended.section07")
     public static class TestConfiguration {
 
+        @Bean
+        public ApplicationEventMulticaster applicationEventMulticaster() {
+            SimpleApplicationEventMulticaster aem = new SimpleApplicationEventMulticaster();
+            aem.setTaskExecutor(new SimpleAsyncTaskExecutor());
+
+            return aem;
+        }
     }
 
 }
